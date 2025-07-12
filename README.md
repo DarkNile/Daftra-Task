@@ -3,8 +3,8 @@
 A headless checkout engine in Dart using BLoC, designed for POS/ESS apps. No UI, no database, no plugins—pure business logic, fully unit-tested.
 
 ## Requirements
-- Flutter 3.7.2
-- Dart 3.7.2
+- Flutter 3.29.3
+- Dart 3.29.3
 
 ## Features
 - Static product catalog loaded from `assets/catalog.json`
@@ -50,7 +50,7 @@ assets/
    ```
 
 ## Time Spent
-- ~2.5 hours (including nice-to-haves and coverage)
+- ~3.5 hours (including nice-to-haves and coverage)
 
 ## Finished Items
 - All must-have requirements (CatalogBloc, CartBloc, business rules, receipt builder, tests, code quality)
@@ -60,6 +60,3 @@ assets/
 - No UI, no database, no plugins—logic only
 - All classes public under `lib/src/...` for testability
 - See tests in `test/` for usage examples
-
----
-Happy coding!
